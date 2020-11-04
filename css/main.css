@@ -459,13 +459,12 @@ img.pull-left {
 	display: none;
 }
 #loader {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	width: 390px;
-	height: 390px;
-	margin: -150px 0 0 -197px;
-	padding: 0;
+    margin-left: auto;
+    
+    display: block;
+    width: 50%;
+    margin-right: auto;
+}
 }
 #loader:before {
 	
